@@ -1,0 +1,68 @@
+doctype html
+html(lang="eng")
+  head
+    title= "Plexus - the future of VR gloves"
+    link(href='https://fonts.googleapis.com/css?family=Droid+Sans', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='assets/stylesheets/vendor/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='assets/stylesheets/reset.css')
+    link(rel='stylesheet', type='text/css', href='assets/stylesheets/base.css')
+    link(rel='stylesheet', type='text/css', href='assets/stylesheets/objects.css')
+    script(type='text/javascript', src='assets/javascript/jquery-3.2.1.js')
+    script(type='text/javascript', src='assets/javascript/nav-primary.js')
+
+  body
+    .parallax-1.parallax.js-anchor-1
+      .o-hero
+        .nav-primary-container
+          nav.nav-primary
+            .nav-primary__left
+              img.nav-primary__logo(src='assets/images/plexus_logo.png' alt='Plexus logo')
+            .show-for-large-up.nav-primary__right
+              p.o-underline.o-cursor--pointer.nav-primary__item.js-anchored-1 Home
+              p.o-underline.o-cursor--pointer.nav-primary__item.js-anchored-2 Developers
+              p.o-underline.o-cursor--pointer.nav-primary__item.js-anchored-3 Contact
+              p.o-underline.o-cursor--pointer.nav-primary__item.js-anchored-4 Sign up
+
+        .o-hero-content
+          .row
+            .col-xs-1.col-sm-2
+            .col-xs-10.col-sm-6
+              h2.hero__heading Grasp and feel the virtual world.
+              h1.hero__heading
+                span.bold= "Plexus VR gloves "
+                span put your physical hands into virtual reality.
+              form
+                label(for='nom') Add your email for early access
+                input.sign-up-form__input#email(type='email')
+                .sign-up-form__input-highlight
+              .button
+                button(type='submit').btn-primary Sign up for Plexus
+
+    .js-anchor-5
+
+    .o-text-container.js-anchor-3
+      .row
+        .col-xs-1.col-sm-2
+        .col-xs-10.col-sm-5
+          h2.heading Add a title here
+          ul
+            li
+              p.o-list-item Tracked - full 6 DoF tracking
+            li
+              p.o-list-item Precise - 16 DoF finger and thumb tracking
+            li
+              p.o-list-item $149 - making VR accessible
+    .parallax-2.parallax
+    .o-text-container.js-anchor-2.js-anchor-4
+      .row
+        .col-xs-1.col-sm-2
+        .col-xs-10.col-sm-5
+          h2.heading Join us in building the future of VR by creating amazing experiences
+          form
+            label(for='nom') Add your email for early access
+            input.sign-up-form__input#email(type='email')
+            .sign-up-form__input-highlight
+          .button
+            button(type='submit').btn-primary Sign up for Plexus
+    .parallax-3.parallax
+
